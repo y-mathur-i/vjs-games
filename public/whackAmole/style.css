@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&family=Hanalei&display=swap');
+
+.square{
+    width: 200px;
+    height: 200px;
+    border-style: groove;
+    border-color : #52c58b;
+    background-color : #f4f4f4;
+}
+.grid{
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+.mole{
+    background-image: url('mole.png');
+    background-size: cover;
+}
+.forms{
+    display: flex;
+    flex-flow: wrap;
+    margin-left: 47% ;
+}
+.timeandscore{
+    display: flex;
+    flex-flow: row ;
+    font-family: 'Grandstander', cursive;
+    color : #a0D2Eb;
+    text-shadow: 1px 2px #494d5f;
+
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Hanalei', cursive;
+    font-size: 60px;
+    text-shadow: 1px 3px #494d5f;
+    color : #A0D2EB;
+}
+body{
+    background-color: #292b33;
+    
+}
+#playBtn{
+    background: #FFEFBA;  
+    background: -webkit-linear-gradient(to top, #FFFFFF, #FFEFBA); 
+    background: linear-gradient(to top, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     
+}
+#playBtn:hover{
+    color : #494d5f;
+    
+}
