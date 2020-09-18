@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Ranchers&display=swap");
 .center {
   margin: auto;
   width: 50%;
@@ -5,22 +6,22 @@
   padding: 10px;
 }
 
-  h1{
-    text-align: center;
-    font-family: 'Hanalei', cursive;
-    font-size: 60px;
-    text-shadow: 1px 3px black;
-    color : #A0D2EB;
+h1 {
+  text-align: center;
+  font-family: "Ranchers", cursive;
+  font-size: 60px;
+  text-shadow: 1px 3px black;
+  color: #a0d2eb;
 }
-#links{
+#links {
   font-size: 30px;
 }
-body{
-	background-color: #292929;
+body {
+  background-color: black;
 }
-li{
-	color: #E5EA5f;
+li {
+  color: #e5ea5f;
 }
-a{
-	color: #E5EAF5;
+a {
+  color: aqua;
 }

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+.grid {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: 3px solid;
+  background-color: #e5eaf5;
+  border: 3px solid;
+  border-color: rgb(63, 190, 106);
+}
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background: black;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #1f79cd;
+  display: inline-block;
+  font-weight: bold;
+}
+.apple {
+  background-color: brown;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: 60px;
+  text-shadow: 1px 3px #494d5f;
+  color: #a0d2eb;
+}
+body {
+  background-color: #292b33;
+}
+h3 {
+  color: #a0d2eb;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 30px;
+  text-shadow: 1px 3px #494d5f;
+}
+.score {
+  color: #a0d2eb;
+  text-shadow: #494949;
+}
+.playBtn {
+  margin: auto;
+  margin-left: 47%;
+}
+.playBtn:hover {
+  color: aqua;
+  background-color: black;
+}
