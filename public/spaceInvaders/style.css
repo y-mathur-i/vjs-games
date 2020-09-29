@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Secular+One&display=swap");
+.grid {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px;
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  border: 1px solid greenyellow;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.shooter {
+  background-color: white;
+  border-radius: 35%;
+  border: 3px solid rgb(5, 250, 135);
+}
+
+.invader {
+  background-color: rgba(157, 213, 250, 0.945);
+  border-radius: 10px;
+}
+
+.boom {
+  background-color: rgb(255, 0, 0);
+  border-radius: 65%;
+}
+
+.laser {
+  background-color: rgba(248, 135, 60, 0.788);
+  border-radius: 35%;
+}
+#reset {
+  margin-left: 48%;
+  font-family: "Secular One", sans-serif;
+}
+#reset:hover {
+  background-color: black;
+  color: aqua;
+}
+h2 {
+  text-align: center;
+  color: #a0d2eb;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 55px;
+  text-shadow: 1px 3px #494d5f;
+}
+h3 {
+  font-family: "Secular One", sans-serif;
+  color: #a0d2eb;
+  text-shadow: 1px 2px #494949;
+}
+
+body {
+  background-color: #292b33;
+}
