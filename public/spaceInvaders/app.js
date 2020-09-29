@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
         // deciding win !!!!!
-        if (alienInvadersDown.length === alienInvaders) {
+        if (alienInvadersDown.length === alienInvaders.length) {
             resultDisplay.textContent = 'You win'
             clearInterval(InvaderId)
         }
