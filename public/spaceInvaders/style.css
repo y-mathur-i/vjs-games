@@ -16,9 +16,9 @@
 }
 
 .shooter {
-  background-color: white;
+  background-color: rgb(5, 250, 135);
   border-radius: 35%;
-  border: 3px solid rgb(5, 250, 135);
+  /* border: 0px groove rgb(5, 250, 135); */
 }
 
 .invader {
